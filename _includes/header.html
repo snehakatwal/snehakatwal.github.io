@@ -1,10 +1,20 @@
 <header>
-  <h1>Welcome to Sneha Katwal's Site</h1>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/experience/">Experience</a>
-    <a href="/projects/">Projects</a>
-    <a href="/achievements/">Achievements</a>
-  </nav>
+  <div class="container header-container">
+    <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Sneha Katwal" class="profile-photo" />
+    <h1 class="name">Sneha Katwal</h1>
+
+    <p class="title">Machine Learning Intern at Real Time Solutions Pvt. Ltd.</p>
+
+    <ul class="contact-list">
+      <li><i class="fa fa-phone"></i> {{ site.phone }}</li>
+      <li><i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      <li><i class="fa fa-map-marker-alt"></i> {{ site.location }}</li>
+    </ul>
+
+    <ul class="social-links">
+      <li><a href="{{ site.linkedin }}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="{{ site.github }}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+      <li><a href="{{ site.website }}" target="_blank" aria-label="Website"><i class="fa fa-globe"></i></a></li>
+    </ul>
+  </div>
 </header>

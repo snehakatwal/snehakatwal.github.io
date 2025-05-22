@@ -1,13 +1,17 @@
 title: Sneha Katwal
 email: skatwal222@gmail.com
-description: >-
-  Electronics, Communication, and Information Engineering student passionate about backend systems, computer vision, and tech inclusion.
-baseurl: ""
-url: "https://snehakatwal.com.np"
-github_username: snehakatwal
-linkedin_username: sneha-katwal
-
+description: >
+  Machine Learning Intern | Backend Developer | Electronics Engineer
+baseurl: "" # leave empty for user.github.io sites
+url: "https://snehakatwal.github.io" # update if you have custom domain
 theme: minima
+
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+
+# Social links
+linkedin: https://www.linkedin.com/in/sneha-katwal/
+github: https://github.com/snehakatwal
+website: https://snehakatwal.com.np
+phone: "+977 981-*****57"
+location: "Biratnagar, Morang, Nepal"
